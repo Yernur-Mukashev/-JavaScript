@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .furniture-selection {
+            margin-bottom: 20px;
+        }
+        .display {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <button class="load-news-btn">Загрузить новости</button>
+    <div class="news-container"></div> -->
+
+    <!-- <h1>Работа с LocalStorage</h1>
+    <input type="text" class="text-input" placeholder="Введите текст" />
+    <button class="save-btn">Сохранить</button>
+    <button class="load-btn">Загрузить</button>
+    <button class="clear-btn">Очистить</button>
+    
+    <div class="saved-text"></div> -->
+
+    <div>
+        <label for="table">Выберите стол:</label>
+        <select id="table">
+            <option value="Дуб">Дуб</option>
+            <option value="Сосна">Сосна</option>
+            <option value="Орех">Орех</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="chair">Выберите стул:</label>
+        <select id="chair">
+            <option value="Кожа">Кожа</option>
+            <option value="Ткань">Ткань</option>
+            <option value="Пластик">Пластик</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="sofa">Выберите диван:</label>
+        <select id="sofa">
+            <option value="Современный">Современный</option>
+            <option value="Классический">Классический</option>
+            <option value="Деревенский">Деревенский</option>
+        </select>
+    </div>
+    <button id="save">Сохранить комплект</button>
+    <button id="clear">Очистить настройки</button>
+    <div id="result"></div>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>
